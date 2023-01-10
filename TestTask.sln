@@ -6,19 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTask", "TestTask\TestTask.csproj", "{8BA3DE96-0971-45B1-82C5-1979F6FE4866}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0CD89A27-A247-4651-B946-F92A3095D7EE}"
-	ProjectSection(SolutionItems) = preProject
-		IncidentPage.html = IncidentPage.html
-		LoginPage.css = LoginPage.css
-		LoginPage.html = LoginPage.html
-		Register.js = Register.js
-		StartRegisterPage.css = StartRegisterPage.css
-		StartRegisterPage.html = StartRegisterPage.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pictures", "Pictures", "{D8E6CDAE-F43D-4799-8630-0CF0A4E671BC}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\bart.png = ..\..\..\Downloads\bart.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +20,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D8E6CDAE-F43D-4799-8630-0CF0A4E671BC} = {0CD89A27-A247-4651-B946-F92A3095D7EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0092359-5F28-4E0E-9C60-D1166804D44F}

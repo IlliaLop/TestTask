@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TestTask
 {
-    public class Incidents
+    public class Incident
     {
-        [Key]
         public string? IncidentName { get; set; }
         public string? Description { get; set; }
+        public Account Account { get; set; }
     }
 }

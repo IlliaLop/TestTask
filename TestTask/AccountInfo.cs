@@ -12,6 +12,8 @@ namespace TestTask
 
         public string? ContactEmail { get; set; }
 
+        public string? IncidentName { get; set; }
+
         public string? IncidentDescription { get; set; }
     }
 }

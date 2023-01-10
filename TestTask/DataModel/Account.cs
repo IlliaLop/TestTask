@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TestTask
 {
-    public class Accounts
+    public class Account
     {
-        [Key]
         public string? Name { get; set; }
-        public Incidents? Incidents { get; set; }
+        public ICollection<Incident> Incident { get; set; }
+        public Contact Contact { get; set; }
     }
 }
